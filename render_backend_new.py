@@ -10,7 +10,7 @@ app = FastAPI()
 # Enable CORS for Vercel frontend compatibility
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # For security, replace "*" with ["https://your-vercel-app.vercel.app"]
+    allow_origins=["https://v0.dev/chat/health-insurance-quote-system-pUxjvqJ8GEw"],  # For security, replace "*" with ["https://your-vercel-app.vercel.app"]
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
